@@ -1,11 +1,12 @@
 #include"Ap_29demo.h"
 //IO settings
-int BUSY_Pin = A14; 
-int RES_Pin = A15; 
-int DC_Pin = A16; 
-int CS_Pin = A17; 
-int SCK_Pin = A18; 
-int SDI_Pin = A19; 
+int BUSY_Pin = 4;
+int RES_Pin = 12;
+int DC_Pin = 19;
+int CS_Pin = 5;
+int SCK_Pin = 18;
+int SDI_Pin = 23;
+
 #define EPD_W21_MOSI_0  digitalWrite(SDI_Pin,LOW)
 #define EPD_W21_MOSI_1  digitalWrite(SDI_Pin,HIGH) 
 
